@@ -1,7 +1,7 @@
 const http = require("http");
 const fs = require("fs");
 const path = require("path");
-const dirPath = path.join(__dirname, "/html");
+const dirPath = path.join(__dirname, "/Matala2N");
 
 const file2Send = fs.readFileSync(`${dirPath}/index.html`);
 const server = http.createServer((req, res) => {
